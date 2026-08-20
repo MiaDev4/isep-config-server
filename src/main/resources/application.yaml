@@ -14,7 +14,7 @@ spring:
   profiles:
     active: dev
 server:
-  port: ${CFG_SERVER_PORT:3000}
+  port: ${CFG_SERVER_PORT:8888}
 
 management:
   endpoints:
