@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: file://C:/Web_Service/isep-config-server/isep-config-server-repos
+          uri: file://C:/Web_Service/isep-config-server
