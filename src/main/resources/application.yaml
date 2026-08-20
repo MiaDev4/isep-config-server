@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: ${DBE_REPOS:https://github.com/MiaDev4/dbe-cloud-server.git}
+          uri: ${DBE_REPOS:https://github.com/MiaDev4/isep-config-server.git}
           refresh-rate: 0
           default-label: main
           clone-on-start: true
@@ -14,7 +14,7 @@ spring:
   profiles:
     active: dev
 server:
-  port: ${CFG_SERVER_PORT:8888}
+  port: ${CFG_SERVER_PORT:3000}
 
 management:
   endpoints:
