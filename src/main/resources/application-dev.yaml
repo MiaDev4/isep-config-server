@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: isep-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:/Web_Service/isep-config-server/isep-config-server-repos
